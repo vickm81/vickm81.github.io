@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VICTOR MBUGUA CIT-227-001/2021</title>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    ul { 
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #222;
+    }
+    li{
+        float: right;
+    }
+    li a{
+        display: block;
+        color: white;
+        font-family: sans-serif;
+        text-align: center;
+        padding: 20px 40px;
+        text-decoration: none;
+    }
+    li a:hover {
+      background-color: #111;
+    }
+.hello{
+       position: absolute;
+       left: 0px;
+       width: 200px;
+       height: 59px;
+    }
+    </style>
+</head>
+
+<body bgcolor="white">
+   
+    <header>
+        <img src="logo2.png" class="hello"> 
+        <ul>
+            <li><a href="about.html">Contacts</a></li>
+            <li><a href="enquire.html">Enquiry</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="hero">
+            <br>
+            <br>
+            <h2>Find Your Next Favorite Book</h2>
+            <p>Shop our collection of quality used books at affordable prices. From classics to bestsellers, we have something for everyone.<br>
+               Finding new owners for used books is our little way of practicing sustainability. Even though the books age the information <br>remains as vibrant as the day it was written.
+
+            </p>
+        </section>
+        <section class="featured-books">
+            <h2>Featured Books</h2>
+            <div class="row">
+                <div class="column">
+                    <img src="book1.jpg" alt="Book 1" height="350" width="350">
+                    <h3><a href="product.html">The Subtle Art Of Not Giving A F*ck</a></h3>
+                </div>
+                <div class="column">
+                    <img src="book2.jpg" alt="Book 2" height="350" width="350">
+                    <h3><a href="product.html">The Monk Who Sold His Ferrari</a></h3>
+                </div>
+                <div class="column">
+                    <img src="book3.jpg" alt="Book 3" height="350" width="350">
+                    <h3><a href="product.html">The Power Of Habit</a></h3>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
